@@ -1,5 +1,6 @@
 import { Grid} from "@mui/material"
 import BotonRedirectBlanco from "../../Componentes/BotonRedirect/BotonRedirectBlanco"
+import Trabajador from "/assets/Trabajador.png";
 import './registrarse.css'
 
 function Registrarse() {
@@ -16,7 +17,7 @@ function Registrarse() {
                     <BotonRedirectBlanco texto="Registrarse" pagina="/Arkitex/RegistroEmpleado"></BotonRedirectBlanco>
                 </Grid>
                 <Grid xs={1}>
-                    <img src="./assets/Trabajador.png" className="imgTrabajador" />
+                    <img src={Trabajador} className="imgTrabajador" />
                 </Grid>
             </Grid>
             
