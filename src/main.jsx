@@ -8,7 +8,7 @@ import Login from './pages/Login/Login';
 import RegistroEmpleado from './pages/RegistroEmpleado/RegistroEmpleado';
 import RegistroEmpleador from './pages/RegistroEmpleador/RegistroEmpleador';
 //Elementos
-
+import './index.css';
 const router = createBrowserRouter([{
     path: "/Aarkitex",
     element: <Home/>
