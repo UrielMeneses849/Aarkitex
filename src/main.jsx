@@ -1,10 +1,34 @@
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+//rutas
+import Home from './pages/Home/home';
+import Login from './pages/Login/Login';
+import RegistroEmpleado from './pages/RegistroEmpleado/RegistroEmpleado';
+import RegistroEmpleador from './pages/RegistroEmpleador/RegistroEmpleador';
+//Elementos
+
+const router = createBrowserRouter([{
+    path: "/Aarkitex",
+    element: <Home/>
+  },
+  {
+    path: "/Login",
+    element: <Login/>
+  },
+  {
+    path: "/Arkitex/RegistroEmpleado",
+    element: <RegistroEmpleado/>
+  },
+  {
+    path: "/Arkitex/RegistroEmpleador",
+    element: <RegistroEmpleador/>
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

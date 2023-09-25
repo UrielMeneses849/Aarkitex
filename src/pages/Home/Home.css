@@ -1,0 +1,10 @@
+.contenedor{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media (min-width:1500px){
+    .contenedor{
+        max-width: 1700px;
+    }
+}

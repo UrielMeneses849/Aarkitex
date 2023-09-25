@@ -1,0 +1,26 @@
+.botonNaranja{
+    border-radius: 4rem;
+    padding: 1rem 3rem;
+    background-color: var(--color-principal);
+    display: inline-block;
+    filter: brightness(1);
+    transition: ease-in .3s all;
+}
+.botonNaranja a{
+    text-decoration: none;
+    color: white !important;
+}
+
+.botonNaranja:hover{
+    cursor: pointer;
+    filter: brightness(0.85);
+}
+.displayFlex{
+    display: flex;
+}
+.icono{
+    filter: invert(100%);
+    rotate: 270deg;
+    height: 24px;
+    margin-left: 10px;
+}

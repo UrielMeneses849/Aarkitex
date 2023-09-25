@@ -1,0 +1,19 @@
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    max-height: 0;
+    transition: max-height 1s;
+    overflow: hidden;
+}
+.menu{
+    height: 55px;
+    margin: 20px 0;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.mostrar{
+    max-height: 350px;
+}
