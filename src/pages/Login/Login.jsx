@@ -11,11 +11,11 @@ function Login() {
             boxSizing={"border-box"}>
                 {/*Formulario de login*/}
                 <Grid xs={1} >
-                    <IniciarSesion></IniciarSesion>
+                    <IniciarSesion />
                 </Grid>
                 {/*Tipo de registro*/}
                 <Grid xs={1} px={{xs:0,md:5,lg:15,xl:20}} mt={{xs:'1rem', md:'0'}}>
-                    <Registrarse></Registrarse>
+                    <Registrarse />
                 </Grid>
             </Grid>
         </div>

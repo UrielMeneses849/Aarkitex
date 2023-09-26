@@ -24,7 +24,7 @@ function HeaderHome() {
       {/*Boton de la barra de navegacion para iniciar sesion*/}
       <Grid>
         {/*Esto esta en la carpeta de componentes*/}
-        <BotonRedirect pagina='/Login' texto="Iniciar sesión"/>
+        <BotonRedirect pagina='/Aarkitex/Login' texto="Iniciar sesión"/>
       </Grid>
     </Grid>
     </header>

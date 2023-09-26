@@ -12,6 +12,7 @@ const StyledButton = (Props) =>{
             minWidth:'200px',
             height:'50px',
             borderRadius:'25px',
+            
             backgroundColor:'#FF9500',
             '&:hover':{
                 background:"#e78122"

@@ -1,6 +1,7 @@
 import { Grid} from "@mui/material"
 import BotonRedirectBlanco from "../../Componentes/BotonRedirect/BotonRedirectBlanco"
 import Trabajador from "/assets/Trabajador.png";
+import Empleador from "/assets/EMPLEADOR.png";
 import './registrarse.css'
 
 function Registrarse() {
@@ -22,7 +23,7 @@ function Registrarse() {
             </Grid>
             
             <Grid columns={{md:2}} display={"flex"} flexDirection={{xs:'column',md:'row'}} width={"100%"}>
-            <img src="/assets/EMPLEADOR.svg" className="imgEmpleador" />
+            <img src={Empleador} className="imgEmpleador" />
                 <Grid xs={1} display={"flex"} gap={"1rem"} flexDirection={"column"} alignItems={{xs:"center",md:'start'}}>
                     <h3 className="opcionRegistro-h3">Empleador</h3>
                     <p className="opcionRegistro-p">Reencuentra a la persona adecuada para realizar tu remodelación</p>

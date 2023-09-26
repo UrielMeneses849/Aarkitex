@@ -11,19 +11,19 @@ import RegistroEmpleador from './pages/RegistroEmpleador/RegistroEmpleador';
 import './index.css';
 const router = createBrowserRouter([{
     path: "/Aarkitex",
-    element: <Home/>
+    element: <Home />
   },
   {
-    path: "/Login",
-    element: <Login/>
+    path: "Arkitex/Login",
+    element: <Login />
   },
   {
     path: "/Arkitex/RegistroEmpleado",
-    element: <RegistroEmpleado/>
+    element: <RegistroEmpleado />
   },
   {
     path: "/Arkitex/RegistroEmpleador",
-    element: <RegistroEmpleador/>
+    element: <RegistroEmpleador />
   },
 ]);
 
