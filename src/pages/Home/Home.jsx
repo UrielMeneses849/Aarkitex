@@ -1,5 +1,5 @@
 
-import HeaderHome from '../../layouts/headerHome/headerHome'
+import HeaderHome from '../../layouts/headerHome/HeaderHome'
 import IndexContent from '../../layouts/indexContent/IndexContent'
 import './Home.css'
 function Home() {
