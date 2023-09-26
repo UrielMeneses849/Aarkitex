@@ -8,7 +8,6 @@ Agregada al body linea 38
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #fafafa;
@@ -60,4 +59,7 @@ p,h1,h2,h3,h4{
 }
 img{
   width: 100%;
+}
+.indexH1, .login__h2, .login__h3, .login{
+  color: #000000 !important;
 }

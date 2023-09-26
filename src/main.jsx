@@ -18,11 +18,11 @@ const router = createBrowserRouter([{
     element: <Login/>
   },
   {
-    path: "/Arkitex/RegistroEmpleado",
+    path: "/Aarkitex/RegistroEmpleado",
     element: <RegistroEmpleado/>
   },
   {
-    path: "/Arkitex/RegistroEmpleador",
+    path: "/Aarkitex/RegistroEmpleador",
     element: <RegistroEmpleador/>
   },
 ]);

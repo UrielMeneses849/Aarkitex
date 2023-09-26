@@ -1,0 +1,13 @@
+.progresoRegE{
+    max-width: 310px;
+}
+.nombreE{
+    width: 75%;
+}
+.curp{
+    width: 60%;
+}
+.negritas span{
+    font-weight: 600;
+    font-size: 13px;
+}
