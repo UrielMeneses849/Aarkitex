@@ -1,5 +1,6 @@
 import { Grid } from '@mui/material';
 import Anchor from '../anchor/anchor';
+import menu2 from '/Aarkitex/public/assets/menu-svgrepo-com.svg'
 import './Navegacion.css';
 function Navbar() {
   function menu(){
@@ -10,7 +11,7 @@ function Navbar() {
     <>
       {/*Icono de menu para celulares*/}
       <Grid justifyContent={"center"} display={{xs:"flex",md:"none"}}>
-        <img src='/src/assets/menu-svgrepo-com.svg' className='menu' onClick={menu}></img>
+        <img src={menu2} className='menu' onClick={menu}></img>
       </Grid>
       {/*Enlaces de la barra de navegacion*/}
       <Grid className='navegacion' component={"nav"} maxHeight={{md:"200px"}} display={"flex"}
