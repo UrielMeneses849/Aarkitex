@@ -29,7 +29,7 @@ const router = createBrowserRouter([{
     element: <RegistroEmpleador />
   },
   {
-    path: "/Aarkitex/RegistroEmpleado2",
+    path: "/Arkitex/RegistroEmpleado2",
     element: <RegistroEmpleado2/>
   },
 ]);
