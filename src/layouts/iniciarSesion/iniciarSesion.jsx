@@ -9,7 +9,7 @@ function IniciarSesion() {
             justifyContent={"center"} alignItems={"center"} flexDirection={"column"} p={3}
             height={"100%"}>
                 <div className="login">
-                    <h2 className="login__h2" style={{color:'#FF9500'}>Bienvenido a Arkitex</h2>
+                    <h2 className="login__h2" style={{color:'#FF9500'}}>Bienvenido a Arkitex</h2>
                     <h3 className="login__h3">Iniciar Sesion</h3>
                     <Formulario></Formulario>
                     <BotonRedirect texto="Iniciar sesión"></BotonRedirect>
