@@ -24,7 +24,7 @@ function RegistroEmpleado() {
             <Grid container columns={2} bgcolor={'white'} height={'100%'} borderRadius={'40px'} overflow={'hidden'}
             boxShadow={"4px 4px 4px #00000040"}>
             {/* Caja de imagen */}
-              <Grid component={'div'} xs={1}>
+              <Grid item component={'div'} xs={1}>
                 <img src='./assets/Rectangle 3.svg' className='imagenAzul'></img>
               </Grid>
             {/*Caja de formulario en layouts formularioE*/}
@@ -35,5 +35,4 @@ function RegistroEmpleado() {
       </CssBaseline>
     )
   }
-  
   export default RegistroEmpleado

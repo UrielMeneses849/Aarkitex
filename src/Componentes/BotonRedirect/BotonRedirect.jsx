@@ -9,6 +9,7 @@ const StyledButton = (Props) =>{
     variant='contained'
     sx={
         {
+            color:'#fff',
             minWidth:'200px',
             height:'50px',
             borderRadius:'25px',

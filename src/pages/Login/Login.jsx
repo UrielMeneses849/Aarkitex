@@ -10,11 +10,11 @@ function Login() {
             columns={{xs:1,md:2}} px={{xs:3,md:8}} py={3} borderRadius={"1rem"} flexDirection={"row"}
             boxSizing={"border-box"}>
                 {/*Formulario de login*/}
-                <Grid xs={1} >
+                <Grid item xs={1} >
                     <IniciarSesion></IniciarSesion>
                 </Grid>
                 {/*Tipo de registro*/}
-                <Grid xs={1} px={{xs:0,md:5,lg:15,xl:20}} mt={{xs:'1rem', md:'0'}}>
+                <Grid item xs={1} px={{xs:0,md:5,lg:15,xl:20}} mt={{xs:'1rem', md:'0'}}>
                     <Registrarse></Registrarse>
                 </Grid>
             </Grid>
