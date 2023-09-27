@@ -1,3 +1,8 @@
+.login__h2{
+    
+        font-size: 55px;
+    margin: 0 auto 30px;
+    }
 .login{
     display: flex;
     flex-direction: column;
@@ -14,16 +19,14 @@
         font-size: 30px;
     }
     .login__h3{
-        font-size: 20px;
+        font-size: 18px;
         color: #FF9500;
     }
 }
 @media (min-width:1500px){
-    .login__h2{
-        font-size: 40px;
-    }
+    
     .login__h3{
-        font-size: 30px;
+        font-size: 19px;
         color: #FF9500;
     }
 }

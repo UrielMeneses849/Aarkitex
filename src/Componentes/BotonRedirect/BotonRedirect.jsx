@@ -10,13 +10,13 @@ const StyledButton = (Props) =>{
     sx={
         {
             color:'#fff',
-            minWidth:'200px',
-            height:'50px',
+            minWidth:'280px',
+            height: '60px',
             borderRadius:'25px',
-            
+            fontWeight: "600",
             backgroundColor:'#FF9500',
             '&:hover':{
-                background:"#e78122"
+                background:"#F78122"
             },
             width:'100%'
         }
@@ -29,7 +29,7 @@ const StyledButton = (Props) =>{
 function BotonRedirect(Props) {
     return (
         <Link to={Props.pagina}>
-            <StyledButton texto={Props.texto}></StyledButton>
+            <StyledButton texto={Props.texto} />
         </Link>
     )
 }

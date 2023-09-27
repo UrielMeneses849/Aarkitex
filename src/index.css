@@ -60,6 +60,9 @@ p,h1,h2,h3,h4{
 img{
   width: 100%;
 }
-.indexH1, .login__h2, .login__h3, .login, .indexP3{
+.indexH1,  .login__h3, .login, .indexP3{
   color: #000000 !important;
+}
+.login__h2{
+  color: #FF9500;
 }
