@@ -10,39 +10,35 @@ import RegistroEmpleador from './pages/RegistroEmpleador/RegistroEmpleador';
 import RegistroEmpleado2 from './pages/RegistroEmpleado/RegistroEmpleado2';
 //Elementos
 
-import './index.css';
-<<<<<<< HEAD
-
-=======
+import './index.css'
 import RegistroEmpleado3 from './pages/RegistroEmpleado/RegistroEmpleado3';
-import Inicio from './pages/Inicio/Inicio';
->>>>>>> JoseLuis
+import Inicio from './pages/Inicio/Inicio'
 const router = createBrowserRouter([{
     path: "/Aarkitex",
     element: <Home />
   },
   {
-    path: "Arkitex/Login",
+    path: "/Login",
     element: <Login />
   },
   {
-    path: "/Arkitex/RegistroEmpleado",
+    path: "/RegistroEmpleado",
     element: <RegistroEmpleado />
   },
   {
-    path: "/Arkitex/RegistroEmpleador",
+    path: "/RegistroEmpleador",
     element: <RegistroEmpleador />
   },
   {
-    path: "/Arkitex/RegistroEmpleado2",
+    path: "/RegistroEmpleado2",
     element: <RegistroEmpleado2/>
   },
   {
-    path:"/Aarkitex/RegistroEmpleado3",
+    path:"/RegistroEmpleado3",
     element:<RegistroEmpleado3/>
   },
   {
-    path:"/Aarkitex/Inicio",
+    path:"/Inicio",
     element:<Inicio/>
   }
 ]);
