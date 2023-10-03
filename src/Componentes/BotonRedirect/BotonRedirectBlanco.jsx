@@ -19,8 +19,9 @@ const StyledButton = (Props) =>{
                 color:'black'
             },
             padding:"1.5rem 2rem",
-            fontSize:'10px',
-            fontWeight:"700"
+            fontSize:'12px',
+            fontWeight:"800",
+            margin: '10px auto'
         }
     }
     >

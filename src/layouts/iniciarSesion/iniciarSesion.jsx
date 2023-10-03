@@ -11,7 +11,7 @@ function IniciarSesion() {
                 <div className="login">
                     <h2 className="login__h2">Bienvenido a Arkitex</h2>
                     <h3 className="login__h3">Iniciar Sesion</h3>
-                    <Formulario></Formulario>
+                    <Formulario />
                     <BotonRedirect texto="Iniciar sesión"></BotonRedirect>
                     <hr className="hr"/>
                     <p>¿Solo quieres dar un vistazo?</p>

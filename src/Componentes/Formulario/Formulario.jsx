@@ -12,7 +12,7 @@ function Formulario() {
     <Box
         component="form"
         sx={{
-        '& > :not(style)': { m: 1},
+        '& > :not(style)': { m: 1}, width: '450px', height: '250px', display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', alignItems: 'center'
         }}
         width={{sx:'15ch', sm:'25ch',md:'30ch'}}
         noValidate
@@ -21,8 +21,8 @@ function Formulario() {
         flexDirection={"column"}
     >
         <ThemeProvider theme={theme}>
-            <TextField aria-label='#FF9500' id="correo" label="Correo" variant="outlined" type='text'/>
-            <TextField id="password" label="Contraseña" variant="outlined" type='password'/>
+            <TextField aria-label='#FF9500' id="correo" label="Correo" variant="outlined" type='text' sx={{width: '100%'}}/>
+            <TextField id="password" label="Contraseña" variant="outlined" type='password' sx={{width: '100%'}}/>
         </ThemeProvider>
         
     </Box>
