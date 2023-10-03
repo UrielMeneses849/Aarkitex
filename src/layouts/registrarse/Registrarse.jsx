@@ -1,5 +1,7 @@
 import { Grid} from "@mui/material"
 import BotonRedirectBlanco from "../../Componentes/BotonRedirect/BotonRedirectBlanco"
+import Trabajador from "/assets/Trabajador.png";
+import Empleador from "/assets/EMPLEADOR.png";
 import './registrarse.css'
 
 function Registrarse() {
@@ -16,7 +18,7 @@ function Registrarse() {
                     <BotonRedirectBlanco texto="Registrarse" pagina="/Aarkitex/RegistroEmpleado"></BotonRedirectBlanco>
                 </Grid>
                 <Grid item xs={1}>
-                    <img src="./assets/Trabajador.svg" className="imgEmpleador" />
+                    <img src={Trabajador} className="imgEmpleador" />
                 </Grid>
             </Grid>
             <Grid columns={2} display={"flex"} flexDirection={{xs:'column',md:'row'}}>
@@ -26,7 +28,7 @@ function Registrarse() {
                     <BotonRedirectBlanco texto="Registrarse" pagina="/Aarkitex/RegistroEmpleador"></BotonRedirectBlanco>
                 </Grid>
                 <Grid item xs={1}>
-                    <img src="./assets/EMPLEADOR.svg" className="imgEmpleador" />
+                    <img src={Empleador} className="imgEmpleador" />
                 </Grid>
             </Grid>
         </Grid>

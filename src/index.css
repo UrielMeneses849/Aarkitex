@@ -26,6 +26,7 @@ Agregada al body linea 38
 
 body {
   font-family: 'Poppins',Helvetica, Arial, sans-serif !important;
+  margin: 0;
 }
 
 h1 {
