@@ -1,4 +1,5 @@
-import { Box, Checkbox, FormControl, FormControlLabel, Grid, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material'
+import { Box, Checkbox, FormControl, FormControlLabel, Grid, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material';
+import progreso from '/assets/Group 35.svg'
 const FormE = ()=>{
     return <Box
         component="form"
@@ -67,8 +68,8 @@ function FormularioE() {
     return (
     <Grid item component={'div'} xs={1} display={'flex'} padding={'2rem 0'}
         flexDirection={'column'} alignItems={'center'} gap={"1rem"}>
-        <Typography variant='h1' color={'blue'} fontWeight={'bold'}>Regístrate como trabajador</Typography>
-        <img className='progresoRegE' src='./assets/Group 35.svg' ></img>
+        <Typography variant='h1' color={'primary'} fontWeight={'bold'}>Regístrate como trabajador</Typography>
+        <img className='progresoRegE' src={progreso} ></img>
         <Typography variant='body1'>Agrega tus datos</Typography>
         <FormE></FormE>
     </Grid>

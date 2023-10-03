@@ -1,6 +1,7 @@
 import { Box, CssBaseline, Grid, ThemeProvider, createTheme } from '@mui/material';
 import './RegistroEmpleado.css';
 import FormularioE from '../../layouts/formularioEmpleado/FormularioE2';
+import rectangulo from '/public/assets/group 108.svg';
 const theme = createTheme({
   typography:{
     h1:{
@@ -25,7 +26,7 @@ function RegistroEmpleado2() {
           boxShadow={"4px 4px 4px #00000040"}>
           {/* Caja de imagen */}
             <Grid item component={'div'} xs={1}>
-              <img src='./assets/Rectangle 3.svg' className='imagenAzul'></img>
+              <img src={rectangulo} className='imagenAzul'></img>
             </Grid>
           {/*Caja de formulario en layouts formularioE*/}
             <FormularioE></FormularioE>

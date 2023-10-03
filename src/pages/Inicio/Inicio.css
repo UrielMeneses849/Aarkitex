@@ -1,0 +1,8 @@
+.iconosFC{
+    width: 15px;
+    height: 15px;
+}
+.iconosFC:last-child{
+    width: 30px;
+    height: 30px;
+}

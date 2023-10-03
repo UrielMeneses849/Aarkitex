@@ -1,7 +1,6 @@
 import BotonRedirect from '../../Componentes/BotonRedirect/BotonRedirect';
 import ContenidoIndex from '../../Componentes/ContenidoIndex/ContenidoIndex';
 import { Grid } from '@mui/material';
-
 function IndexContent() {
     return (
         <>
